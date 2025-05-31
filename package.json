@@ -1,0 +1,19 @@
+{
+  "name": "lunareth-s-light",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=8080"
+  },
+  "keywords": [],
+  "author": "Quantum Channel",
+  "license": "ISC",
+  "description": "A simple top-down adventure-action game built in Phaser.js.",
+  "dependencies": {
+    "phaser": "^3.90.0",
+    "phaser3-rex-plugins": "^1.80.15"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
