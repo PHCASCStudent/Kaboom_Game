@@ -1,19 +1,18 @@
 {
-  "name": "lunareth-s-light",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "kaboom-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "live-server --port=8080"
-  },
-  "keywords": [],
-  "author": "Quantum Channel",
-  "license": "ISC",
-  "description": "A simple top-down adventure-action game built in Phaser.js.",
-  "dependencies": {
-    "phaser": "^3.90.0",
-    "phaser3-rex-plugins": "^1.80.15"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "terser": "^5.40.0",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "kaboom": "^3000.1.17"
   }
 }
